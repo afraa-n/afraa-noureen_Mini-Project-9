@@ -21,9 +21,9 @@ To achieve the objectives of this project, the following steps are taken:
 2. **Data Manipulation Tasks**
    a. Load the dataset into the Jupyter Notebook.  
    b. Explore the dataset's structure, data types, and basic statistics.  
-   d. Perform data manipulation tasks such as filtering, sorting, and grouping the data.  
-   e. Create visualizations using Matplotlib to convey insights from the data.  
-   f. Conduct basic data analysis, including calculating summary statistics.  
+   c. Perform data manipulation tasks such as filtering, sorting, and grouping the data.  
+   d. Create visualizations using Matplotlib to convey insights from the data.  
+   e. Conduct basic data analysis, including calculating summary statistics.  
    
 ***
 
