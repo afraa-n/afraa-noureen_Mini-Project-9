@@ -13,12 +13,12 @@ Dataset: [Iris Dataset](https://gist.github.com/netj/8836201)
 
 To achieve the objectives of this project, the following steps are taken:
 
-1. **Setup and Configuration**
+1. **Setup and Configuration**  
    a. Access Google Colab via a web browser with Google accounts.  
    b. Create a new Jupyter Notebook in Google Colab.  
    c. Configure the runtime settings for optimal performance.  
 
-2. **Data Manipulation Tasks**
+2. **Data Manipulation Tasks**  
    a. Load the dataset into the Jupyter Notebook.  
    b. Explore the dataset's structure, data types, and basic statistics.  
    c. Perform data manipulation tasks such as filtering, sorting, and grouping the data.  
