@@ -1,24 +1,20 @@
-from main import read_file, summary, visualize
+from main import summary, visualize
 import matplotlib.pyplot as plt
+import pandas as pd
 
 "Testing main.py"
 
-def test_read_file():
-    df=read_file('iris.csv')
-    assert len(df)==150
+df=pd.read_csv('iris.csv')
 
 def test_describe():
-    df=read_file('iris.csv')
     desc_stats = summary(df)
-    assert desc_stats['sepal.length'].mean()==5.843333
+    assert desc_stats['sepal.length']['mean']==5.843333333333334
 
 def test_visualize():
-    df=read_file('iris.csv')
     test_plot = visualize(df)
     assert test_plot == "displayed successfully"
 
 
 if __name__ == "__main__":
-    test_read_file()
     test_describe()
     test_visualize()
