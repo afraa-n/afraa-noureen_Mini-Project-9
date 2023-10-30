@@ -1,14 +1,24 @@
-# test_main.py
+from main import read_file, summary, visualize
+import matplotlib.pyplot as plt
 
-import lib  # Import the library module
-import unittest
+"Testing main.py"
 
-class TestFactorialFunction(unittest.TestCase):
+def test_read_file():
+    df=read_file('iris.csv')
+    assert len(df)==150
 
-    def test_factorial(self):
-        self.assertEqual(lib.factorial(0), 1)
-        self.assertEqual(lib.factorial(5), 120)
-        # Add more test cases here
+def test_describe():
+    df=read_file('iris.csv')
+    desc_stats = summary(df)
+    assert desc_stats['sepal.length'].mean()==5.843333
 
-if __name__ == '__main__':
-    unittest.main()
+def test_visualize():
+    df=read_file('iris.csv')
+    test_plot = visualize(df)
+    assert test_plot == "displayed successfully"
+
+
+if __name__ == "__main__":
+    test_read_file()
+    test_describe()
+    test_visualize()
