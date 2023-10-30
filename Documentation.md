@@ -14,8 +14,8 @@ I created a scatter plot to visualize the relationship between Sepal Length and 
 5. Data Analysis by Filtering:  
 Data manipulation is often necessary to extract specific information. I demonstrated the following important operations 
 
-Filtering Data - I filtered the dataset to include only rows where Sepal Length is greater than 5.5. This operation reduces the dataset to a subset of data points that meet the specified condition.
+- Filtering Data - I filtered the dataset to include only rows where Sepal Length is greater than 5.5. This operation reduces the dataset to a subset of data points that meet the specified condition.
 
-Sorting Data - I sorted the dataset based on the Petal Length attribute in ascending order. This operation allows us to arrange the data in a specific order, which can be useful for various analyses.
+- Sorting Data - I sorted the dataset based on the Petal Length attribute in ascending order. This operation allows us to arrange the data in a specific order, which can be useful for various analyses.
 
-Calculating Mean - I calculated the mean Sepal Length and Sepal Width for each species in the dataset using a group-by operation. This provides insights into the average characteristics of different iris species.
+- Calculating Mean - I calculated the mean Sepal Length and Sepal Width for each species in the dataset using a group-by operation. This provides insights into the average characteristics of different iris species.
