@@ -14,17 +14,16 @@ Dataset:
 To achieve the objectives of this project, the following steps are taken:
 
 1. **Setup and Configuration**
-   a. Access Google Colab via a web browser with Google accounts.
-   b. Create a new Jupyter Notebook in Google Colab.
-   c. Configure the runtime settings for optimal performance.
+   a. Access Google Colab via a web browser with Google accounts.  
+   b. Create a new Jupyter Notebook in Google Colab.  
+   c. Configure the runtime settings for optimal performance.  
 
 2. **Data Manipulation Tasks**
-   a. Load the dataset into the Jupyter Notebook using libraries like Scikit-learn.
-   b. Explore the dataset's structure, data types, and basic statistics, utilizing visualization if needed.
-   c. Clean the data by addressing missing values and outliers.
-   d. Perform data manipulation tasks such as filtering, sorting, merging, or reshaping the data.
-   e. Create visualizations using Matplotlib to convey insights from the data.
-   f. Conduct basic data analysis, including calculating summary statistics and identifying correlations within the dataset.
+   a. Load the dataset into the Jupyter Notebook.  
+   b. Explore the dataset's structure, data types, and basic statistics.  
+   d. Perform data manipulation tasks such as filtering, sorting, and grouping the data.  
+   e. Create visualizations using Matplotlib to convey insights from the data.  
+   f. Conduct basic data analysis, including calculating summary statistics.  
    
 ***
 
@@ -46,17 +45,5 @@ To run the project, you can use the Makefile and follow these commands:
 4. ```
    # To format the code
    make format
-   ```
-5. ```
-   # To extract data
-   make extract
-   ```
-6. ```
-   # To tranform data
-   make transform_load
-   ```
-7. ```
-   # To query data
-   make query
    ```
 
